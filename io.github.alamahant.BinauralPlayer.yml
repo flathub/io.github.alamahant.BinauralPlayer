@@ -22,5 +22,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/alamahant/BinauralPlayer.git
-        tag: v1.5.1
-        commit: 9efbba71f7b01c65f74b89ea90b449a4e1dcb881
+        tag: v1.5.2
+        commit: cc2c978990ddf94bcd5c3b3acfc1d321363de1e8

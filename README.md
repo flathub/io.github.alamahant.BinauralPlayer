@@ -1,20 +1,25 @@
 # Binaural Media Player
 
-![BinauralPlayer Screenshot](screenshots/full.png)
+![BinauralPlayer Screenshot](screenshots/lighttheme-full.png)
 
 A sophisticated desktop application for multimedia playback, binaural/isochronic tone generation, and brainwave entrainment, built with **Qt 6** and **C++17**.
 
-Available in Flathub:
-https://flathub.org/en/apps/search?q=alamahant
+## Download Options
+
+| Platform | Where to Get It |
+| :--- | :--- |
+| **Linux** | [Flathub](https://flathub.org/en/apps/search?q=alamahant) |
+| **Windows and Mac** | [Buy on Gumroad](https://jnanadhakini.gumroad.com/) - Pre-compiled binary, no compilation needed |
+
 
 ![Qt](https://img.shields.io/badge/Qt-6.0%2B-green)
 ![C++17](https://img.shields.io/badge/C%2B%2B-17-blue)
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎵 Media Playback
+### Media Playback
 
 * **Multi-format support:** MP3, WAV, FLAC, OGG, M4A, MP4, M4V, AVI, MKV
 * **Tabbed playlists:** Create, rename, and manage multiple playlists
@@ -22,7 +27,7 @@ https://flathub.org/en/apps/search?q=alamahant
 * **Streaming support:** Play audio directly from HTTP/HTTPS URLs
 * **Time display:** Track position/duration with seekable progress bar
 
-### 🧠 Brainwave Audio Generation
+### Brainwave Audio Generation
 
 * **Three modes:** Binaural Beats (headphones required), Isochronic Tones, Audio Generator
 * **Real-time dynamic engine:** Immediate parameter changes; no pre-rendered buffers
@@ -30,7 +35,7 @@ https://flathub.org/en/apps/search?q=alamahant
 * **Frequency control:** Left/right channels (20Hz–20kHz)
 * **Auto-stop timer:** With countdown visualization
 
-### 📋 Playlist Management
+### Playlist Management
 
 * **Tabbed interface:** Multiple named playlists with closeable tabs
 
@@ -38,7 +43,7 @@ https://flathub.org/en/apps/search?q=alamahant
 * **File operations:** Save/load playlists in JSON
 * **Track operations:** Add, remove, clear with smart selection tracking
 
-### 🎨 User Interface
+### User Interface
 
 * **Custom toolbars:** Color-coded (Media: Blue, Binaural: Purple, Nature: Green)
 * **Split status bar:** Media playback (left), binaural engine status (right)
@@ -48,7 +53,7 @@ https://flathub.org/en/apps/search?q=alamahant
 
 ---
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Core Components
 
@@ -71,7 +76,7 @@ https://flathub.org/en/apps/search?q=alamahant
 
 ---
 
-## 📦 Installation & Build
+## Installation & Build
 
 ### Prerequisites
 
@@ -103,7 +108,7 @@ make -j$(nproc)
 ./BinauralPlayer
 
 ```
-## 🎮 Usage Guide
+## Usage Guide
 
 ### Basic Playback
 
@@ -144,7 +149,7 @@ make -j$(nproc)
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Sample Streams
 
@@ -161,7 +166,7 @@ make -j$(nproc)
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### No audio
 
@@ -196,13 +201,13 @@ QT_MEDIA_BACKEND=ffmpeg ./BinauralPlayer
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **GPL Version 3 License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Alamahant** – Developer & Maintainer  
 © 2025 Alamahant. All rights reserved.
@@ -211,7 +216,7 @@ This project is licensed under the **GPL Version 3 License** – see the [LICENS
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 * Nature sound mixer
 * Audio visualizations
@@ -222,4 +227,4 @@ This project is licensed under the **GPL Version 3 License** – see the [LICENS
 
 ---
 
-🎵 **Happy listening and coding!**
+ **Happy listening and coding!**

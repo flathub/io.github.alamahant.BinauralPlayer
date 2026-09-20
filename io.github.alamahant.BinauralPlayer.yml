@@ -45,7 +45,7 @@ modules:
       - type: file
         url: https://github.com/quickjs-ng/quickjs/releases/download/v0.16.2/qjs-linux-aarch64
         only-arches: [aarch64]
-        sha256: 7cdb5225eafdda2ae520c90447246f1359c05060d52a3c960981c1b406f6fa95
+        sha256: 5fb05fd4e81f26c0039f7166ed9af1050968a0e252c981c461a6aa3376244e6b
 
   - name: Binauralplayer
     buildsystem: cmake-ninja
